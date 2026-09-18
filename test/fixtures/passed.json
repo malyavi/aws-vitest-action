@@ -1,0 +1,38 @@
+{
+  "success": true,
+  "startTime": 1700000000000,
+  "numTotalTests": 12,
+  "numPassedTests": 11,
+  "numFailedTests": 0,
+  "numPendingTests": 1,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 8,
+  "testResults": [
+    {
+      "name": "/home/runner/work/repo/repo/test/app/handlers/orders.test.ts",
+      "status": "passed",
+      "endTime": 1700000001200,
+      "assertionResults": [
+        {
+          "fullName": "handleOrder signs the call as its own role",
+          "title": "signs the call as its own role",
+          "status": "passed",
+          "failureMessages": []
+        }
+      ]
+    },
+    {
+      "name": "/home/runner/work/repo/repo/test/app/pricing/rates.test.ts",
+      "status": "passed",
+      "endTime": 1700000002400,
+      "assertionResults": [
+        {
+          "fullName": "priceOf maps the lowest tier to the base rate",
+          "title": "maps the lowest tier to the base rate",
+          "status": "pending",
+          "failureMessages": []
+        }
+      ]
+    }
+  ]
+}
