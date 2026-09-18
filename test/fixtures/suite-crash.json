@@ -1,0 +1,17 @@
+{
+  "success": false,
+  "startTime": 1700000000000,
+  "numTotalTests": 0,
+  "numPassedTests": 0,
+  "numFailedTests": 0,
+  "numTotalTestSuites": 4,
+  "testResults": [
+    {
+      "name": "/home/runner/work/repo/repo/test/app/handlers/orders.test.ts",
+      "status": "failed",
+      "endTime": 1700000000900,
+      "message": "Failed to load ../../../src/app/handlers/signer",
+      "assertionResults": []
+    }
+  ]
+}
