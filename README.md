@@ -79,7 +79,7 @@ results file" alone is not.
 | `working-directory` | `.` | For a package that is not at the repository root. |
 | `comment` | `true` | Whether to write the pull request comment at all. |
 | `comment-section` | `tests` | The section of the shared comment this action owns. |
-| `comment-tag` | `<!-- pr-status-comment -->` | Identifies the shared comment; give every action reporting into one the same tag. |
+| `comment-tag` | `<!-- malyavi-pr-status-comment -->` | Identifies the shared comment; give every action reporting into one the same tag. |
 | `comment-section-order` | — | Fixed rendering order for the sections, comma-separated. |
 | `pr-number` | from the event | The pull request to comment on. |
 | `github-token` | `github.token` | Used to read and write the comment. |
